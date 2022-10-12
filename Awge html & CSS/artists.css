@@ -1,0 +1,56 @@
+
+.mainmemebers{
+	-webkit-box-shadow: 0 0 5px 2px #282828;
+  -moz-box-shadow: 0 0 5px 2px #282828;
+  box-shadow: 0 0 5px 2px #282828;
+	background-color: #282828;
+	margin-top: 10px;
+	width: 800px;
+	height: 1500px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.artistbox{
+	margin-top: 35px;
+	height: 320px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #5A5857;
+	border-radius: 25px;
+
+}
+.artistname{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: -15px;
+	
+}
+.artistpic{
+	margin-top: 10px;
+	background-color: blue;
+	height: 260px;
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center; 
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	filter: grayscale(100%);
+}
+
+li{
+	display: list-item;
+	text-align: center;
+	color: white;
+	
+}
+#artistbio{
+	margin-top: 150px;
+	font-size: 20px;
+	text-align: center;
+
+}

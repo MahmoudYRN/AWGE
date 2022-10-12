@@ -1,0 +1,287 @@
+/*
+CSS template for index
+*/
+body{
+	background-color: #444;
+	font-family: 'Quicksand', sansserif;
+	color: white;
+}
+.wrap{
+	margin-top: -10px;
+	margin-right: -8px;
+	margin-left: -8px;
+	background-color: #444;
+	height: 900px;
+}
+#homelniky{
+	margin-top: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+	width: 450px;
+	background-color: black;
+}
+.homelinks{
+	text-decoration: underline;
+	font-size: 35px;
+	text-align: center;
+	padding-left: 70px;
+}
+.homelinks:hover{
+	color:green;
+}
+#volts{
+	height: 250px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#volvideo{
+	margin-top: 50px;
+	height: 400px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#vol1frame{
+	height: 400px;
+	width: 600px;
+}
+
+#voltro{
+	margin-top: 100px;
+	height: auto;
+	text-align: center;
+	width: 500px;
+	margin-left:auto;
+	margin-right: auto;
+}
+#voltp{
+	font-size: 20px;
+}
+.volt1{
+	font-size: 50px;
+	padding: 20px 20px;
+	color: green;
+	font-style: italic;
+}
+
+.dvd{
+	margin-top: 110px;
+}
+/* images for musci! */
+.albums{
+	margin-top: 20px;
+	float: left;
+	margin-left: 66px;
+	height: 300px;
+	width: 300px;
+	margin-bottom: 50px;
+}
+#playlist1{
+
+	height: 400px;
+	width: 300px;
+	margin-top: 690px;
+	margin-left: 66px;
+}
+
+#playlist2{
+	float: right;
+	height: 400px;
+	width: 300px;
+	margin-right: 66px;
+	margin-top: -400px;
+}
+#playlistawge{
+	border: none;
+	height: 400px;
+	width: 300px;
+}
+#playlistcozy{
+	border: none;
+	height: 400px;
+	width: 300px;
+}
+#dielit{
+	background-image: url("albums/dielit.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+
+}
+#dielit:hover{
+	background-image: url("albums/dielitcolor.png");
+	-webkit-box-shadow: 0 0 5px 3px red;
+	-moz-box-shadow: 0 0 5px 3px red;
+	box-shadow: 0 0 5px 3px red;
+}
+#longliveasap{
+	background-image: url("albums/longliveasap.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+}
+#longliveasap:hover{
+	background-image: url("albums/longliveasapcolor.jpg");
+	-webkit-box-shadow: 0 0 5px 3px red;
+	-moz-box-shadow: 0 0 5px 3px red;
+	box-shadow: 0 0 5px 3px red;
+}
+#atlong{
+	background-image: url("albums/long.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+}
+#atlong:hover{
+	background-image: url("albums/longcolor.jpg");
+	-webkit-box-shadow: 0 0 5px 3px red;
+	-moz-box-shadow: 0 0 5px 3px red;
+	box-shadow: 0 0 5px 3px red;
+}
+#cozy{
+	background-image: url("albums/cozytapes.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+}
+#cozy:hover{
+	background-image: url("albums/cozy.jpg");
+	-webkit-box-shadow: 0 0 5px 3px red;
+	-moz-box-shadow: 0 0 5px 3px red;
+	box-shadow: 0 0 5px 3px red;
+}
+/* end of images for musci! */
+
+#logo{
+	margin-top: 10px;
+	height: 70px;
+	width: 70px;
+}
+#logoimage{
+	margin-top: 5px;
+}
+#navbar{
+	margin-top: -8px;
+	background-color: #282828;
+	height: 80px;
+}
+#nav{
+	margin-top: -8px;
+	height: 80px;
+	width: 630px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+#dielitname{
+	background-color: red;
+	float: left;
+	margin-top: 250px;
+	margin-left: 66px;
+}
+.main{
+	-webkit-box-shadow: 0 0 5px 2px #282828;
+  -moz-box-shadow: 0 0 5px 2px #282828;
+  box-shadow: 0 0 5px 2px #282828;
+	background-color: #282828;
+	margin-top: 10px;
+	width: 800px;
+	height: 800px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.mainindex{
+	background-image: url("images/main.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: grayscale(80%);
+	width: auto;
+	height: 800px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom: -10px;
+}
+#rulesbox{
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	height: 140px;
+	width: 500px;
+	text-align: center;
+	text-decoration: underline;
+}
+#rules{
+	font-size: 50px;
+}
+#rulenames{
+	margin-top: -40px;
+	font-size: 20px;
+	background-color: white;
+}
+.mainmusic{
+	-webkit-box-shadow: 0 0 5px 2px #282828;
+  -moz-box-shadow: 0 0 5px 2px #282828;
+  box-shadow: 0 0 5px 2px #282828;
+	background-color: #282828;
+	margin-top: 10px;
+	width: 800px;
+	height: 1200px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.dvd-section{
+	-webkit-box-shadow: 0 0 5px 2px #282828;
+  -moz-box-shadow: 0 0 5px 2px #282828;
+  box-shadow: 0 0 5px 2px #282828;
+	background-color: #282828;
+	margin-top: 10px;
+	width: 800px;
+	height: 1000px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#footer{
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #282828;
+	width: 100%;
+	height:150;
+}
+#pages{
+	margin-top: -60px;
+	margin-left: 90px;
+	height: 40px;
+	width: 700px;
+}
+
+ul li{
+	list-style: none;
+	float: left;
+	display: block;
+}
+a{
+		text-decoration: none;
+		color: white;
+		font-size: 25px;
+		text-align: center;
+		padding: 9px;
+		margin-right: 5px;
+}
+a:hover{
+	color:black;
+}
+.social{
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+}
+.copyright{
+	text-align:center;
+}

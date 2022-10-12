@@ -1,0 +1,71 @@
+.aboutform{
+  height: 500px;
+  width: 800px;
+}
+#Contact{
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+	display: block;
+  color: yellow;
+	background-color: black;
+}
+#namebox{
+
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  height: 50px;
+  width: 380px;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  color: white;
+
+}
+#emailbox{
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+  height: 50px;
+  width: 380px;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+#subjectbox{
+  text-align: left 10px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 50px;
+  width: 780px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+#messagebox{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 200px;
+  width: 780px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+#send{
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  background-color: white;
+  border: none;
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  background-color: yellow;
+}
